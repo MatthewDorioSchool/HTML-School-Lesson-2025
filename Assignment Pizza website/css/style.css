@@ -1,0 +1,88 @@
+html{
+    scroll-behavior: smooth;}
+body{
+    margin: 0px;
+    background-color: #cfcdcd;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+p,a,li,figcaption{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+header{
+    height: 200px;
+    background-color: #f8f8f8;
+    /*Align navigation*/
+    display: flex;
+    align-items:center;
+}
+header>div{
+    /*position navigation*/
+    width: auto;
+    flex-grow: 1;
+}
+header>nav>menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+header>div>a>img{
+    /*resize logo*/
+    width: auto;
+    height: 180px;
+    padding-left: 10px;
+}
+header>nav>menu>li{
+    padding:0px 20px;
+}
+header>nav>menu>li>a{
+    /*recolor links*/
+    color:#b50202;
+}
+body>section>div>img{
+    width:auto;
+    height: 250px;
+    padding-left: 10px;
+}
+body>main{
+    padding-left: 10px;
+}
+body>main>section+section+section{
+    padding: 5px;
+}
+body>main>section+section+section>input{
+    padding: 5px;
+}
+footer{
+    background-color: #0e0e0e;
+}
+footer{
+    height: 200px;
+    /*Align navigation*/
+}
+h6{
+    color:#ffffff;
+}
+footer>nav>menu{
+    height: 150px;
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;}
+footer>nav>menu>li{
+    padding:75px 20px;
+}
+footer>nav>menu>li>a{
+    /*recolor links*/
+    color:#ffffff;}
+body>main>div>img{
+    position:absolute;
+  top: 475px;
+  right: 0;
+    width: auto;
+    height: 600px;
+}
