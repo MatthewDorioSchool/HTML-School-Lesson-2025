@@ -1,0 +1,192 @@
+/*background color*/
+body{
+    background-color: #0a0a0a;
+/*Poster image*/
+}
+#Background{
+    position: absolute;
+    left: 400px;
+    display: block;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    z-index: -2;
+}
+/*Film Logo resize and positioning*/
+#Film_Logo{
+    position: absolute;
+    width: 580px;
+    top: 700px;
+    left: 450px;
+}
+/*studio logos resize and positioning*/
+#logo1{
+    position: absolute;
+    top: 1005px;
+    left: 450px;
+    width: 25px;
+}
+#logo2{
+    position: absolute;
+    top: 1005px;
+    left: 820px;
+    width: 25px;    
+}
+#logo3{
+    position: absolute;
+    top: 1005px;
+    left: 1055px;
+    width: 25px; 
+}
+/* Fonts */
+@font-face{
+    font-family: 'timesten_roman';
+    src: url(../Fonts/timesten_roman.ttf);
+}
+@font-face {
+    font-family: 'Fiesta';
+    src: url(../Fonts/Fiesta.ttf);
+}
+@font-face {
+    font-family: 'BeatnikW01SmCap';
+    src: url(../Fonts/BeatnikW01SmCap.ttf);
+}
+@font-face {
+    font-family: 'OPTIRaleigh-Gothic';
+    src: url(../Fonts/OPTIRaleigh-Gothic.otf);
+}
+/* Top Actor*/
+h1{
+    position: absolute;
+    top: -30px;
+    left: 450px;
+    font-family: 'Fiesta',sans-serif;
+    color:#01f406;
+    letter-spacing:70%;
+    font-size: 50px;
+}
+/*Tagline font color and positioning*/
+#who{
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    font-family: 'timesten_roman',sans-serif;
+    color:#f9f9f9;
+    font-size: 20px;
+}
+#what{
+    position: absolute;
+    top: 550px;
+    left: 450px;
+    font-family: 'timesten_roman',sans-serif;
+    color:#f9f9f9;
+    font-size: 20px;
+}
+#in{
+    position: absolute;
+    top: 600px;
+    left: 450px;
+    font-family: 'timesten_roman',sans-serif;
+    color:#f9f9f9;
+    font-size: 20px;
+}
+#of{
+    position: absolute;
+    top: 650px;
+    left: 450px;
+    font-family: 'timesten_roman',sans-serif;
+    color:#f9f9f9;
+    font-size: 20px;
+}
+#®{
+    position: absolute;
+    top: 668px;
+    left: 520px;
+    font-family: 'timesten_roman',sans-serif;
+    color:#f9f9f9;
+    font-size: 6px;
+}
+/*Studio credits font and color*/
+div{
+    font-family: 'BeatnikW01SmCap',sans-serif;
+    color: #dedede;
+}
+/*Studio credits positioning*/
+#lineA{
+    position: absolute;
+    left: 450px;
+    top: 950px;
+    display: grid;
+    grid-template-columns: 100px 28px 84px 53px 400px;
+}
+        /* smaller studio credits */
+div.sdiv{
+    padding-top: 7px;
+    font-size: 8px;
+}
+#lineB{
+position: absolute;
+    left: 475px;
+    top: 968px;
+    display: grid;
+    grid-template-columns: 230px 10px 50px 10px 85px 20px 93px 24px 70px;
+}
+        /* half sized studio credits alined to the right */
+div.halfdiv{
+    text-align: right;
+    font-size: 6px;
+    padding-top: 2px;
+}
+#lineC{
+    position: absolute;
+    left: 445px;
+    top: 987px;
+    display: grid;
+    grid-template-columns: 25px 69px 18px 69px 21px 83px 25px 85px 14px 19px 148px 16px 60px;
+}
+#lineD{
+    position: absolute;
+    left: 480px;
+    top: 1005px;
+    display: grid;
+    grid-template-columns: 15px 350px 18px 200px 
+}
+/*Coming Soon text font color and positioning */
+#Coming_Soon{
+    position: absolute;
+    left: 755px;
+    top: 987px;
+    font-family: 'OPTIRaleigh-Gothic',sans-serif;
+    color: #01f406;
+}
+/*Studio copy right fineprint*/
+p.fineprint{
+    position: absolute;
+    top: 1018px;
+    left: 857px;
+    color: #dedede;
+    font-size: 4px;
+}
+/*hyper link styling*/
+a{
+    text-decoration: none;
+    font-family: 'OPTIRaleigh-Gothic',sans-serif;
+    color: #01f406;
+    font-size: 40px;
+/* Hyper link positions*/
+}
+a.Trailer{
+    position:absolute;
+    top: 100px;
+    left: 20px;
+}
+a.Buy{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+a.IMDB{
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
