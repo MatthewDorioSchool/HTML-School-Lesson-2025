@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta data-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"  content="Nintendo Entertainment System">
+    <meta name="robots"  content="noindex, nofollow">
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="Css/style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- JavaScript -->
+    <script type="text/JavaScript" src="./js/javaScript.js"></script>
+
+    <!-- Contact page – The contact page should provide all the
+information needed to contact the company and it should also
+contain a contact form. -->
+
+    <title>Nintendo Entertainment System</title>
+</head>
+
+<body class="contactPage">
+<!-- main heading element-->
+<header id="globalHeader">
+    <section>
+        <div>
+            <!-- nintendo logo-->
+            <a href="index.html">
+                <img id="neslogo" src="img/brandlogos_img/nesLogo.png" alt="Nintendo Entertainment System" /></a>
+        </div>
+    </section>
+
+    <section>
+        <!-- site navigation we can add more links as the site grows
+        for now this navigates the page just fine-->
+        <nav>
+            <ul class="menu">
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="shopPage.html" target="_self">Shop Page </a></li>
+            <li><a href="productPageNinjaGaiden1.html" target="_self">Ninja Gaiden</a></li>
+            <li><a href="productPageMegaMan2.html" target="_self">Mega Man 2 </a></li>
+            <li><a href="productPageMario3.html" target="_self">Mario 3 </a></li>
+            <li><a href="aboutTheCompany.html" target="_self">About the Company</a></li>
+            <li><a href="contactPage.html" target="_self">Contact Page</a></li>
+
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<main>
+    <div class="containerContact">
+        <!--Contact Information-->
+        <h2 class="ContactHead">Contact Information</h2>
+        <ul class="contactInfo">
+            <li><i class="fa-solid fa-house"></i> 4600 150th Ave NE, Redmond, WA 98052-5113, USA</li>
+            <li><i class="fa-solid fa-phone"></i><a href="tel:+14255587078"> 1-(425) 558-7078</a></li>
+            <li><i class="fa-regular fa-envelope"></i><a href="mailto:nintendo@noa.nintendo.com "> Nintendo@noa.nintendo.com </a></li>
+            <li><i class="fa-solid fa-truck"></i> P.O. Box 957, Redmond, WA 98073-0957 U.S.A</li>
+        </ul>
+        <!--Contact Form-->
+        <form class="contactForm" method="post" action="somefile.php">
+            <h2>Contact Us</h2>
+            <h3>Name</h3>
+            <input class="text" type="text" placeholder="Your Name" name="name">
+            <br>
+            <h3>Email</h3>
+            <input type="email" placeholder="Example@email.com" name="email">
+            <br>
+            <h3>Phone Number</h3>
+            <input type="tel" name="Phone Number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                   placeholder=(xxx)-xxx-xxxx>
+            <br>
+            <h3>Message</h3>
+            <textarea placeholder="Type your message ..."></textarea>
+            <br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</main>
+<footer id="globalFooter">
+<section>
+     <section>
+        <div>
+            <!-- Nintendo logo-->
+            <a id=NLogo href="index.html">
+                <img id="NintendoLogo" src="img/brandlogos_img/Nintendologo.png" alt="Nintendo Logo" /></a>
+        </div>
+    </section>
+<nav>
+        <ul class="footerMenu">
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="shopPage.html" target="_self">Shop Page </a></li>
+            <li><a href="productPageNinjaGaiden1.html" target="_self">Ninja Gaiden</a></li>
+            <li><a href="productPageMegaMan2.html" target="_self">Mega Man 2 </a></li>
+            <li><a href="productPageMario3.html" target="_self">Mario 3 </a></li>
+            <li><a href="aboutTheCompany.html" target="_self">About the Company</a></li>
+            <li><a href="contactPage.html" target="_self">Contact Page</a></li>
+        </ul>
+    </nav>
+</section>
+</footer>
+
+</body>
+</html>

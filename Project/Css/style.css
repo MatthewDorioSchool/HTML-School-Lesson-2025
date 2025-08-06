@@ -1,0 +1,951 @@
+/* this is the index Page CSS section */
+
+/* Index section*/
+body.nesHomepage{
+    background-color: #000000;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+#indexVideo{
+    width: 100vw;
+    top: 20vw;
+    margin-top: -90vw;
+    padding-bottom: 25vw;
+    z-index: -1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    top: 16vw;
+    width: 70vw;
+    gap: 1vw;
+    margin-left: 1vw;
+    margin-top: 13vw;
+}
+.menu li{
+    font-size: 1.5vw;
+}
+
+#neslogo{
+    width: 30vw;
+
+}
+.footerMenu{
+    list-style: none;
+    display: flex;
+    position: relative;
+    gap: 1vw;
+    bottom: 4vw;
+}
+.footerMenu li{
+    font-size: 1.3vw;
+}
+#NLogo{
+    background-color: #00000000;
+    position: relative;
+    left: 65vw;
+    top:3vw;
+}
+#NLogo img{
+    width: 30vw;
+}
+
+a{
+
+    color: #000000;
+    font-weight: bold;
+
+
+}
+a:hover{
+    color: #000000;
+    text-decoration: none;
+    background-color: rgba(255, 0, 0, 0.42);
+
+
+
+}
+
+.bottom-backsplash {
+    width: 100vw;
+    margin-top: auto;
+}
+
+.bottom-backsplash img {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+
+/* character-images  */
+.character-section{
+    height: 0;
+    width: 0;
+}
+.character-image {
+    position: relative;
+    top: 22vw;
+    left: 1vw;
+    z-index: 2;
+}
+.character-image img{
+    width: 100vw;
+}
+.ActionPacked-section{
+    height: 0;
+    margin: 0;
+}
+.ActionPacked-image{
+    position: relative;
+    top: 2vw;
+    left: 7vw;
+}
+.ActionPacked-image img{
+    width: 85vw;
+}
+.bottom-backsplash{
+    position: relative;
+    top: 60%;
+    z-index: 1;
+}
+.NESproduct-section{
+    height: 0;
+    width: 0;
+}
+.NESproduct-image{
+        position: relative;
+        top: 15vw;
+        left: 20vw;
+        z-index: 2;
+}
+.NESproduct-image img{
+    width: 55vw;
+}
+
+#nesBox {
+    background-color: rgb(253, 0, 205);
+    position: relative;
+    margin-top: -39vw;
+    width: 100vw;
+    height: 20vw;
+    z-index: 0;
+    padding-bottom: 8vw;
+
+}
+.price-section{
+    position: relative;
+    top: 46vw;
+    left: 41vw;
+    z-index: 5;
+}
+.price{
+    color: white;
+}
+.price p{
+    font-size: 7vw;
+}
+/*----------END NES Home page CSS--------------*/
+
+
+
+/* this is the ninjaGaiden CSS section */
+body.ninjaGaiden{
+    background-color: #001147;
+    margin: 0;
+}
+.ninja-wrapper { 
+    top: 100px;
+    margin-bottom: -8.5vw;
+}
+
+.ninja_container {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    grid-auto-rows: 15vw; /* create rows automatically */
+    height: 100%;
+    width: auto;
+}
+
+#ninjaText{
+    border-radius: 3%;
+    grid-column: 2/span 5;
+    grid-row: 3/span 2;
+    background-color: rgba(150, 157, 184, 0.53);
+    width: 50%;
+    height: 70%;
+    padding: 16px 16px 16px 16px ;
+    z-index: 10;
+    margin-top: 5%;
+
+}
+#ninjaText p{
+    font-size: 1.2vw;
+}
+
+/* Item 1 - large block */
+.item-1 {
+    grid-column: 1;
+    grid-row: 1 ;
+    z-index: -1;
+    display: grid;
+    padding-top: 4vw;
+    padding-left: 4vw;
+transform: scale(3);
+}
+
+.item-1 img {
+    padding-left: 25%;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+/* Item 2 */
+.item-2 {
+    padding-left: 25%;
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 3;
+    z-index: 2;
+    display: grid;
+}
+.item-2 img{
+    width: 45vw;
+}
+
+/* Item 3 - wide bottom element */
+.item-3 {
+    grid-column: 1/ 3;
+    grid-row: 2 ;
+    z-index: 0;
+    display: grid;
+    width: auto;
+
+}
+.item-3 img {
+    width: 100vw;
+    transform: scale(100%);
+    transform-origin: bottom left;
+}
+
+/* Item 4 - overlap bottom left */
+.item-4 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    z-index: 1;
+    display: grid;
+
+}
+.item-4 img {
+    z-index: 1;
+    width: 100vw;
+    transform: scale(0.65);
+    transform-origin: bottom left;
+}
+.item-5 {
+    grid-column:1 / span 5;
+    grid-row: 4/ span 5;
+    z-index: 2;
+    display: grid;
+
+}
+.item-5 img {
+    z-index: 1;
+    width: 100vw;
+    transform: scale(100%);
+    transform-origin: bottom left;
+    opacity: 85%;
+}
+.item-6 {
+
+    padding-left: 40%;
+    grid-column:2 / span 5 ;
+    grid-row: 4;
+    z-index: 2;
+    display: grid;
+
+}
+.item-6 video {
+    z-index: 1;
+    width: 80vw;
+    transform: scale(60%);
+    transform-origin: bottom left;
+
+}
+.item-7 {
+    margin-top: 13%;
+    grid-column:1 ;
+    grid-row: 7 ;
+    z-index: 2;
+
+
+}
+.item-7 img {
+    width: 100vw;
+    z-index: 1;
+    transform: scale(45%);
+    transform-origin: bottom left;
+
+}
+
+/*----------end ninja Gaiden page CSS--------------*/
+
+/* this is the megaMan2 CSS section */
+body.megaMan{
+    background-color: #9db1bc;
+    margin: 0px;
+}
+
+#megaman2Text{
+    border-radius: 3%;
+    background-color: rgba(88, 93, 112, 0.45);
+    width: 25vw;
+    height: 19vw;
+    padding: 16px 16px 16px 16px ;
+    z-index: 10;
+    transform:  scale(135%);
+    grid-column: 3;
+    grid-row: 3;
+    margin-left: 11vw;
+}
+#megaman2Text p{
+    font-size: 1.2vw;
+}
+.megaMan-wrapper{
+    top: 100%;
+    padding-bottom: 18vw;
+}
+.megaman_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    grid-auto-rows: 15vw; /* create rows automatically */
+    height: 100%;
+    width: auto;
+}
+.MMitem-1{
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    z-index: -1;
+}
+.MMitem-1 img{
+    width: 100vw;
+}
+.MMitem-2{
+    grid-column: 3;
+    grid-row: 1 ;
+    z-index: 8;
+}
+.MMitem-2 img{
+    margin-top: 4vw;
+    width: 40vw;
+}
+.MMitem-3{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    padding: 8vw 9vw;
+}
+.MMitem-3 img{
+    width: 26vw;
+}
+.MMitem-4{
+    grid-column: 3;
+    grid-row: 5;
+    padding-left: 11vw;
+}
+.MMitem-4 img{
+    width: 36vw;
+}
+.MMitem-5{
+    grid-column: 1;
+    grid-row: 5;
+    z-index: 5;
+    transform-origin: bottom left;
+    padding-top: 13vw;
+}
+.MMitem-5 img{
+    width: 22vw;
+}
+.MMitem-6{
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: 6vw;
+    margin-left: 5vw;
+}
+.MMitem-6 video{
+    width: 50vw;
+}
+
+/*----------END Mega Man 2 page CSS--------------*/
+
+
+/*------------------------------------ this is the Mario 3 CSS section */
+body.mario3{
+    background-color: #fffa1d;
+    margin: 0;
+    z-index: -1;
+
+}
+.mario-wrapper{
+    top: 100%;
+    padding-bottom: 7vw;
+}
+.mario-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15vw, 1fr));
+    grid-auto-rows: 15vw; /* create rows automatically */
+    height: 100%;
+    width: auto;
+}
+
+#marioText{
+    border-radius: 3%;
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgba(221, 219, 219, 0.83);
+    width: 40vw;
+    height: 20vw;
+    padding: 16px 16px 16px 16px ;
+    z-index: 10;
+    margin: 5vw 5vw;
+}
+#marioText p{
+    font-size: 1.2vw;
+}
+.white-bar {
+    grid-column: 1;
+    grid-row: 3;
+    left: 0;
+    width: 100vw;
+    height: 93vw;
+    background-color: white;
+    z-index: -1;
+}
+.mario3logo-image-container{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 7vw;
+}
+.mario3logo-image-container img {
+    width: 100vw;
+}
+.curtin-image-container{
+    grid-column: 1;
+    grid-row: 1;
+    z-index: -1;
+}
+.curtin-image-container img {
+    width: 100vw;
+}
+.topBlackwhitebar-image-container{
+    grid-column: 1;
+    grid-row: 3;
+    margin-top: -3vw;
+}
+.topBlackwhitebar-image-container img {
+    width: 100vw;
+    height: auto;
+}
+.mario-image-container{
+    grid-column: 5;
+    grid-row: 3;
+    margin-top: 3vw;
+    margin-left: -10vw;
+    z-index: 6;
+}
+.mario-image-container img {
+    width: 30vw;
+}
+
+.bowser-image-container{
+    grid-column: 1;
+    grid-row: 6; 
+    z-index: 5;
+    margin: -8vw 5vw;
+}
+.bowser-image-container img {
+    width: 20vw;
+    height: auto;
+
+}
+.pipe-image-container{
+    grid-column: 1;
+    grid-row: 7; 
+    z-index: 4;
+}
+.pipe-image-container img{
+    width: 30vw;
+    height: auto;
+
+}
+.luigipeachtoad-image-container{
+    grid-column: 3;
+    grid-row: 8;
+    z-index: 6;
+    margin-top: 1vw;
+}
+.luigipeachtoad-image-container img {
+    width: 20vw;
+    height: auto;
+
+}
+.stage-image-container{
+    grid-column: 1;
+    grid-row: 8;
+    z-index: 3;
+}
+.stage-image-container img {
+    width: 100vw;
+    height: auto;
+
+}
+.big3Logo-image-container{
+    grid-column: 3;
+    grid-row: 6;
+    z-index: 4;
+    margin: 1.35vw -7vw;
+}
+.big3Logo-image-container img {
+    width: 60vw;
+    height: auto;
+
+}
+.big3Logo-image-container {
+    position: relative;
+    top: 323%;
+    left: 70%;
+    transform: translate(-50%, -150%);
+    width: 60%;
+    height: auto;
+    z-index: 6;
+
+}
+.mario3video{
+    grid-column: 3;
+    grid-row: 5;
+    margin: 5vw 7vw;
+}
+.mario3video video {
+    width: 49vw;
+    height: auto;
+    border: 2px solid black;
+    z-index: 5;
+}
+
+/*----------END Mario 3 page CSS--------------*/
+
+/* this is the aboutNintendo CSS section */
+
+
+/*body*/
+body.aboutNintendo{
+    background-color: #d6d6d6;
+    margin: 0px;
+}
+/* page grid placement*/
+.containerAbout{
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-auto-rows: 10vw;
+    height: 100vw;
+    width: 100vw;
+    box-sizing: border-box;
+    padding-bottom: 134vw;
+}
+/*Text container*/
+.textContainer {
+    grid-column: 6 / span 2;
+    grid-row: 2;
+    width: 31vw;
+    z-index: 1;
+    font-size: 1.25vw;
+}
+/* About The Company Title*/
+body.aboutNintendo h1{
+    color: #E4000F;
+    background-color: #2f2f2f;
+    width: 20vw;
+    height: 2.5vw;
+    z-index: 3;
+    padding-left: 30px;
+    border-radius: 10px;
+    font-size: 2vw;
+}
+/* About the Company Pharagrah 1*/
+.partA {
+    background-color: #7c7c7c;
+    font-size: 1.25vw;
+    padding: 1vw;
+    height: 13vw;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+/* Pharagrah 2*/
+.textContainerB{
+    grid-column: 1 / span 2;
+    grid-row: 6;
+    padding-left: 5vw;
+    width: 31vw;
+    padding-top: 55vw;
+    z-index: 1;
+    font-size: 1.25vw;
+}
+.partB {
+    background-color: #7c7c7c;
+    font-size: 1.25vw;
+    padding: 1vw;
+    border-radius: 10px;
+    z-index: 1;
+}
+/*dustcover container*/
+.dustcover-backsplash {
+    grid-column: 1 /span 8;
+    grid-row: 5;
+}
+/*dust cover image*/
+.dustcover-backsplash img {
+    object-fit: cover;
+    opacity: 100%;
+    width: 100%;
+    max-height: 100%;
+    z-index: 1;
+    padding-top: 5vw;
+    border-bottom-style: solid;
+    border-bottom-color: #2f2f2f;
+    border-bottom-width: 80vw;
+}
+/* old nintendo container*/
+.oldNintendo-image-container{
+    grid-column: 1/span 4;
+    grid-row: 1/ span 4;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+/*old nintenod image*/
+.oldNintendo-image-container img{
+    width: 50vw;
+}
+/*Japan image container*/
+.japan-image-container{
+    grid-column:4/ span 5 ;
+    grid-row: 7;
+    z-index: 4;
+}
+/*Japan image size*/
+.japan-image-container img{
+    width: 95%;
+}
+/*new Nintendo image container*/
+.newNintendo-image-container{
+    grid-column:5 / span 2;
+    grid-row: 7;
+    z-index: 3;
+    padding-top: 58vw;
+}
+/*New Nintendo image size*/
+.newNintendo-image-container>img{
+    width: 125%;
+}
+/*Nintendo Logo container*/
+.NintendoLogo-image-container{
+    grid-column: 1/ span 4;
+    grid-row: 6;
+    z-index: 2;
+    padding-left: 10%;
+}
+/*Nintendo logo size*/
+.NintendoLogo-image-container>img{
+    width: 100%;
+}
+/*devloper image container*/
+.developer-image-container{
+    grid-column:1/ span 5 ;
+    grid-row: 6;
+    z-index: 2;
+    padding-top: 15vw;
+}
+/*devloper image size*/
+.developer-image-container img{
+    width: 100%;
+}
+
+/*----------END about Nintendo page CSS--------------*/
+
+/* this is the contactPage CSS section */
+
+/*Font slection*/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Nunito Sans", sans-serif
+}
+p,a,li{
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+/* body contact page*/
+body.contactPage{
+    background-color: #8d8d8d;
+    margin: 0;
+}
+/* Contact page grid*/
+.containerContact{
+    display: grid;
+    grid-template-columns: 77% 23%;
+    grid-template-rows: 11vh 15vh 25vh 32vh;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/*Company contact info*/
+.contactInfo{
+    grid-column: 1/1;
+    grid-row: 3;
+}
+.ContactHead{
+    grid-column: 1;
+    grid-row: 3 ;
+    margin-top: -30px;
+    margin-left: 40px;
+}
+/* Contact form*/
+.contactForm{
+    grid-column: 2;
+    grid-row: 2 ;
+}
+/* Decoration */
+a:link {
+    text-decoration: none;
+    color: #E4000F;
+}
+a:visited {
+    text-decoration: none;
+    color: #E4000F;
+}
+a:active {
+    text-decoration: none;
+    color: #E4000F;
+}
+    /*--Nintendo contact background image--*/
+body.contactPage>main{
+    background-image: url(../img/contactPage_img/nintendocontact.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 775px;
+}
+/* Responsive Adjustments */
+@media only screen and (max-width: 800px){
+body.contactPage>main{
+    background-position: 0px 200px;
+    background-size: 100vw;
+}    
+.containerContact{
+    display: grid;
+    grid-template-columns: 15vw;
+    grid-template-rows: 10vw 80vw 75vw;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.contactInfo{
+    grid-column: 2/ span 4;
+    grid-row: 1;
+    margin-top: 70px;
+}
+.ContactHead{
+    grid-column: 2;
+    grid-row: 1 ;
+    margin-top: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.contactForm{
+    grid-column: 3/span 6;
+    grid-row: 3 /span 2;
+}
+
+}
+/*----------END contact page CSS--------------*/
+
+/* this is the shopPage CSS section */
+body.shopPage {
+    background-image: url('../img/storePage/NES_productSelect/nesProduct.png');
+    background-color: #1e1d1d;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center 100%;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    min-height: 205vh;
+    transition: background-image 0.5s ease;
+    overflow-x: hidden;
+}
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.shop-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 100vw;   /* full viewport width */
+    height: 100vh;  /* full viewport height */
+    padding-bottom: 30vw;
+}
+
+
+#display9 {
+    grid-row: 2 / 6;
+    grid-column: 2 /4;
+    position: relative;
+    z-index:2;
+    padding-left: 12vw;
+    margin-top: 1vw;
+}
+#display9 img{
+    width: 55vw;
+}
+
+#display10 {
+    grid-row: 2 / 6;
+    grid-column: 2 / 4;
+    position: relative;
+    z-index: 1;
+    padding-left: 7vw;
+    margin-top: -2vw;
+}
+#display10 img{
+    width: 65vw;
+}
+
+#display11 {
+    grid-row: 2 / 5;
+    grid-column: 6;
+    position: relative;
+    z-index: 0;
+    padding-right: 3vw;
+    box-sizing: border-box; /* ensures padding/margins don’t overflow */
+}
+#display11 img{
+    width: 25vw;
+}
+
+/*product logo */
+
+#display6 {
+    grid-row: 1/1 ;
+    grid-column: 1/3;
+    position: relative;
+    z-index: -1;
+   
+}
+#display6 img {
+    max-height: 15vw;
+    position: relative;
+    z-index: -1;
+}
+
+
+
+/* Carousel Container */
+#storeSelect {
+    width: 100%;
+    height: 26vh;
+    background-color: rgba(179, 179, 179, 0.31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Slider Frame */
+#slider {
+    width: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Slides Row */
+#all-slide {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slide */
+.slide-box {
+    flex: 0 0 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slide-box img {
+    width: 10vw;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* Carousel Buttons */
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    background: rgba(51, 51, 51, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 2px;
+    font-size: 1.5rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.slide-button.previous { left: 5px; }
+.slide-button.next { right: 5px; }
+
+.slide-button:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#display23{
+    position: relative;
+    top: 29vw;
+    left: 26vw;
+    z-index: 5;
+    width: 25.5vw;
+    height: 8vw;
+    
+    border-radius: 10% 10%;
+}
+#display23 p{
+    color: white;
+    font-size: 7vw;
+    margin: 0;
+}
+
+#display24{
+    position: relative;
+    top: -22vw;
+    left: 5vw;
+    z-index: 5;
+    width: 22vw;
+    height: 8vw;
+    
+    border-radius: 10% 10%;
+
+}
+#display24 p{
+    color: white;
+    font-size: 7vw;
+    margin: 0;
+}
+/*----------END shop page CSS--------------*/
