@@ -113,7 +113,7 @@ function showNinjaGaiden() {
     updateImages({
       
         display6:  { src: './img/productPage1_ninja_img/ninjagaidenlogo.png', alt: 'Ninja Gaiden Logo' },
-        display9:  { src: './img/storePage/ninjaGaidenSelected_img/ninjagaidenSelected.png', alt: 'Ninja Gaiden Product' },
+        display9:  { src: './img/storePage/ninjaGaidenSelected_img/ninjaGaidenSelected.png', alt: 'Ninja Gaiden Product' },
         display10: { src: './img/storePage/gameSelectShadowbox/gameshadowBox.png', alt: 'display box' },
         display11: { src: './img/storePage/ninjaGaidenSelected_img/ninjaChar.png', alt: 'Ninja Character' },
         display24: { innerHTML: '<p>$69.99</p>' }
@@ -126,13 +126,13 @@ function showMegaMan2() {
     updateImages({
         
         display6:  { src: './img/productPage2_megaman2_img/megaman2logo.png', alt: 'Mega Man 2 Logo' },
-        display9:  { src: './img/storePage/megaManSelected_img/megaManSelected.png', alt: 'Mega Man 2 Product' },
+        display9:  { src: './img/storePage/megaManSelected_img/MegaManSelected.png', alt: 'Mega Man 2 Product' },
         display10: { src: './img/storePage/gameSelectShadowbox/gameshadowBox.png', alt: 'display box' },
         display11: { src: './img/storePage/megaManSelected_img/megaMan2Char.png', alt: 'Mega Man 2 Character' },
         display24: { innerHTML: '<p>$59.99</p>' }
         
     });
-    updateBackgroundImage('./img/storePage/megamanSelected_img/megamanSelectUnderGlow.png');
+    updateBackgroundImage('./img/storePage/megaManSelected_img/megamanSelectUnderGlow.png');
     setShopPageMinHeight('100vh');
 }
 
@@ -142,7 +142,7 @@ function showMario3() {
         display6:  { src: './img/productPage3_mario3_img/supermario3logo.png', alt: 'Mario 3 Logo' },
         display9:  { src: './img/storePage/Mario3Selected_img/Mario3StorepageSelect.png', alt: 'Mario 3 Product' },
         display10: { src: './img/storePage/gameSelectShadowbox/gameshadowBox.png', alt: 'display box' },
-        display11: { src: './img/storePage/MArio3Selected_img/Mario3Char.png', alt: 'Mario 3 Character' },
+        display11: { src: './img/storePage/Mario3Selected_img/Mario3Char.png', alt: 'Mario 3 Character' },
         display23: { innerHTML: '' }, // This will remove the price text from display23
         display24: { innerHTML: '<p>$79.99</p>' }
     });
