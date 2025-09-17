@@ -1,0 +1,32 @@
+:root {
+    --header :#fffb9b;
+    --nav :#e3f2fd;
+}
+
+header{
+    background-color: var(--header);
+}
+nav{
+    background-color: var(--nav);
+}
+
+section{ 
+    z-index: 1; 
+    background: url('./Assets/Background.jpg') no-repeat center/cover fixed;
+}
+
+div{
+    z-index: 2;
+}
+
+section div{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.card-img-top{
+    height: 20vw;
+    width: auto;
+    object-fit: contain;
+    background-color: #fffc9b81;
+}
