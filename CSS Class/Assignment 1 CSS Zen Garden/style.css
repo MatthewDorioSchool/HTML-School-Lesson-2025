@@ -1,0 +1,157 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+
+/* inserting colors for later use */
+:root{
+	--abbr:#338a40;
+	--primary:#86BBD8;
+	--link:#4c6f84;
+	--header:#F6AE2D;
+	--highlight:#F26419;
+}
+
+
+/* inserting fonts for later use*/
+@font-face {
+      font-family: "RockSalt"; 
+      src: url("./Assets/fonts/Rock_Salt/RockSalt-Regular.ttf");
+    }
+@font-face{
+	font-family: "JosefinSans";
+	src: url("./Assets/fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+html{ /*Type Selector*/
+	background: linear-gradient(90deg,rgba(217, 69, 28, 1) 0%, rgba(84, 56, 45, 1) 59%); /* Gradient background*/
+	height: fit-content;
+}
+
+
+header{ /*Type Selector*/
+	background: url("./Assets/Screenshot\ 2025-09-21\ 214826.png") no-repeat center/cover; /*header background*/
+	height: 30vw;
+	border-radius: 15px;
+}
+
+body { /*Type Selector*/
+	background: url("./Assets/moab.jpg") no-repeat center; /*body background*/
+	background-position: 0vw 41vw;
+	}
+
+header > h1{
+	position: relative;		/*title postitioning*/
+	top: 1vw;
+	left: 11vw;
+	font-family: "RockSalt";	/*title font*/
+	font-size: 2rem; 
+	color: var(--header); /*title color*/
+	max-width: 25vw; /*title size*/
+}
+
+header h2{ /*subtitle possitioning, font, color, size */
+	position: relative;
+	top: 15vw;
+	left: 65vw;
+	font-family: "RockSalt";
+	color: var(--header);
+	max-width: 30vw;
+	font-size: 1.5rem;
+
+}
+
+h3{ /* pargraph titles */
+	font-family: "RockSalt";
+	font-size: 1.1rem;
+	color: var(--header);
+	max-width: fit-content;
+	position: relative;
+	left: 2vw;
+	padding: 0 10px;
+}
+
+.summary { /* Class Selector */
+  background-color: rgba(0, 0, 0, 0.3); /* transpartent background for readablitiy*/
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: var(--primary);
+  max-width: fit-content;
+  padding: 2px 10px 2px 2px;
+}
+
+#zen-preamble{ /* ID Selector */
+	background-color: rgba(0, 0, 0, 0.5); 
+  	border-radius: 10px;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 0px 2px 2px 10px;
+	margin-top: 5vw;
+}
+
+#zen-supporting > div{ /*Child Combinator*/
+	background-color: rgba(0, 0, 0, 0.5); 
+  	border-radius: 10px;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 0px 2px 2px 10px;
+}
+
+p,a { /*Type Selector*/
+	font-family: "JosefinSans"; /* font insertion*/
+	font-size: 1rem;
+	}
+
+p { /*Type Selector*/
+	color: var(--primary);
+	text-indent: 25px; /* paragraph indent */
+}
+
+
+abbr { /*Type Selector*/
+	color:var(--abbr);
+}
+
+div[role="article"]{ /*Attribute Selector*/
+	margin: 1vw;
+}
+
+a:link { /*Pseudo-class Selector*/ 
+	color: var(--link);	
+	}
+a:visited { /*Pseudo-class Selector*/ 
+	color: var(--header);
+	}
+a:hover, a:focus, a:active { /*Pseudo-class Selector*/ 
+	color: var(--highlight);	
+	}
+
+footer{ /*Type Selector*/
+	background-color: rgba(0, 0, 0, 0.5); 
+  	border-radius: 10px;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: fit-content;
+	margin-top: 10vw;
+	padding: 4px;
+}
+aside > div > div{ /*Child Combinator*/
+	background-color: rgba(0, 0, 0, 0.5); 
+  	border-radius: 10px;
+  	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	max-width: fit-content;
+	padding: 0 15px 10px 0;
+}
+
+/* repositioning bottom elements*/
+.design-archives{ /* Class Selector */
+	margin:  -15vw 0 0 25vw;
+}
+
+.zen-resources{ /* Class Selector */
+	margin:  -10vw 0 0 40vw;
+}
