@@ -1,0 +1,7 @@
+CREATE TABLE users (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL,
+    Bio TEXT,
+    image_path VARCHAR(255) NOT NULL,
+    date_joined DATETIME DEFAULT CURRENT_TIMESTAMP
+);
